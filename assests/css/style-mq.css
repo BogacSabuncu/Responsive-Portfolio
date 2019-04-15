@@ -1,0 +1,48 @@
+@media screen and (max-width: 980px){
+    #section2{
+        width: 50%;
+    }
+
+    .portPic{
+        position: relative;
+        border: 1px solid #ccc;
+        float: left;
+        margin: 40px;
+        padding: 0;
+        height: 300px;
+    }
+    input{
+        border: 1px solid #ccc;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #section2{
+        width: 45%;
+        margin: 5px;
+    }
+    #aboutId,
+    #contactId,
+    #portfolioId{
+        font-size: 13pt;
+        margin-right: 15px;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    #section2{
+        width: auto;
+    }
+    #myImage{
+        margin: 0 20%;
+    }
+
+    #aboutId,
+    #contactId,
+    #portfolioId{
+        font-size: 10pt;
+        margin-right: 15px;
+        
+    }
+}
